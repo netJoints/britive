@@ -1,0 +1,21 @@
+# Uncomment and modify as needed
+# rename the file to broker-config.yml before usage
+config:
+  bootstrap:
+    tenant_subdomain: catapult.dev2.aws
+    #    authentication token to connect to Britive Broker in the tenant mentioned above. This is a fake token.
+    authentication_token: aLimfHIPqQ5XjheDd4ceK04R0zqKYhFbQP5insHahzAd
+    broker_name_generator: broker-name-generator.sh
+    # The resource types supported by this broker
+resource_types:
+  VyOS-Router-Resource-Type:
+    Rotate-Password-Permission:
+      max_supported_version: local
+      checkout_script: /Users/shahzadali/britive-broker-scripts/vyos_router_add_jit_user_checkout.sh
+      checkin_script: /Users/shahzadali/britive-broker-scripts/vyos_router_delete_jit_user_checkin.sh
+    # Following lines are not needed for VyOS router JIT scripts. 
+  HelloBritive-Resource-Type:
+    HelloBritive-Permission:
+      max_supported_version: local
+      checkout_script: /Users/shahzadali/britive-broker-scripts/checkout_hello_britive_script.sh
+      checkin_script: /Users/shahzadali/britive-broker-scripts/checkin_hello_britive_script.sh
