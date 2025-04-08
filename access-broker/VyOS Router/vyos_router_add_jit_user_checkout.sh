@@ -10,9 +10,9 @@
 # Configuration Variables
 # -----------------------
 
-VYOS_HOST="IP Address"                                      # VyOS Router IP Address (Update as needed)
-SERVICE_ACCOUNT="example_name"                              # Default service account user for VyOS Router
-SERVICE_ACCOUNT_PASSWORD="example_password"                 # Default password for the service account
+VYOS_HOST="1.2.3.4"                                                     # VyOS Router IP Address (Update as needed)
+SERVICE_ACCOUNT="srv_account_name_example"                              # Default service account user for VyOS Router
+SERVICE_ACCOUNT_PASSWORD="srv_account_password_example"                 # Default password for the service account
 
 # Extract and sanitize the username from the provided email
 JIT_USERNAME=${username}                        # Get the full email address Britive checkout process
