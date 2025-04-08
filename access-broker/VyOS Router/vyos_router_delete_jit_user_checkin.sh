@@ -8,9 +8,9 @@
 # Configuration Variables
 # -----------------------
 
-VYOS_HOST="18.144.87.2"                                       # VyOS Router IP
+VYOS_HOST="1.2.3.4"                                           # VyOS Router IP
 SERVICE_ACCOUNT="srv_account_name_example"                    # VyOS service account username
-SERVICE_ACCOUNT_PASSWORD="srv_account_name_pass"              # VyOS service account password
+SERVICE_ACCOUNT_PASSWORD="srv_account_name_password"          # VyOS service account password
 
 # Sanitize and extract the username from email-style input
 JIT_USERNAME=${username}                       # Original email address received from Britive profile checkin process
