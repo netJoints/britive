@@ -10,7 +10,7 @@
 # Configuration Variables
 # -----------------------
 
-VYOS_HOST="18.144.87.2"                                     # VyOS Router IP Address (Update as needed)
+VYOS_HOST="IP Address"                                      # VyOS Router IP Address (Update as needed)
 SERVICE_ACCOUNT="example_name"                              # Default service account user for VyOS Router
 SERVICE_ACCOUNT_PASSWORD="example_password"                 # Default password for the service account
 
