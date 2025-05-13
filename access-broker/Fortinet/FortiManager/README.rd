@@ -1,0 +1,1 @@
+FortiManager is a centralized management platform by Fortinet that provides a single point of control for managing Fortinet network security devices, including FortiGate firewalls. It offers features for configuring, monitoring, and analyzing Fortinet appliances across an organization, enabling administrators to manage large deployments more efficiently. 
