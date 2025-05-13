@@ -1,10 +1,9 @@
 #!/bin/bash
 
-fmg_host="18.144.170.42"
+fmg_host="<FortiManager ip address>"
 fmg_admin_user="FortiManager_Svc_Account"
-fmg_admin_password="Britive123!"
+fmg_admin_password="<Password>"
 jit_username=${username}
-jit_password="DummyPassword123!"
 
 jit_username="${jit_username%%@*}"
 jit_username="${jit_username//[^a-zA-Z0-9]/}"
