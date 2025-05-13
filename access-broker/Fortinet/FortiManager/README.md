@@ -54,6 +54,8 @@ jit_username="will be coming from Britive automatically"
 
 ## 📁 Directory Overview
 
+---
+
 Fortinet/
 └── FortiManager/
     ├── FortiManager_checkout.sh     # (not shown here, assumed)
