@@ -8,7 +8,7 @@ config:
     #    scripts_path: scripts
     tenant_subdomain: se-learn
     #    authentication_token_generator: ${britive.broker.authentication.token.script}  # optional
-    authentication_token: ShahzadAliT0k3nfJQkHoFvCl+vleq5J5vW9QQq3aljc=
+    authentication_token: ShahzadAliT0k3nfJQkHoFvCl+vleq5JACCESSbr0Ker=
     broker_name_generator: broker-name-generator.sh
     #    resources_generator: ${britive.broker.resources.script}
     #  http_proxy:  # optional, if not specified do not use http proxy for connecting
