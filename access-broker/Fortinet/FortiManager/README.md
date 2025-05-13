@@ -47,10 +47,10 @@ chmod +x FortiManager_checkin.sh
 
 Following must be chages as per your setup
 
-fmg_host="IP"
-fmg_admin_user="FortiManager_Svc_Account"
-fmg_admin_password="********"
-jit_username="will be coming from Britive automatically"
+- fmg_host="IP"
+- fmg_admin_user="FortiManager_Svc_Account"
+- fmg_admin_password="********"
+- jit_username="will be coming from Britive automatically"
 
 
 Pull requests are welcome! If you’re using Britive and Fortinet in your org, feel free to open issues or suggest improvements.
