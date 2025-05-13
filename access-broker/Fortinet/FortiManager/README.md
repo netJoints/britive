@@ -14,12 +14,12 @@ Britive is used as the **access broker**, granting time-bound privileged access.
 
 ## 🛠️ How It Works
 
-### 1. `FortiManager_checkout.sh` (not shown here but assumed)
+### 1. `FortiManager_checkout.sh`
 
-- Creates a user account in FortiManager using sanitized email input.
+- Creates a JIT user account in FortiManager using sanitized email input.
 - Sets a secure temporary JIT password.
-- Grants the account a pre-defined admin profile.
-- Output: User credentials ready to use for the duration of access.
+- Grants the account a pre-defined user profile.
+- Output: User credentials ready to use for the duration of access in Britive UI.
 
 ### 2. `FortiManager_checkin.sh`
 
@@ -39,39 +39,18 @@ Britive is used as the **access broker**, granting time-bound privileged access.
 
 ---
 
-## 🧪 Sample Output
-
-=== [Tue May 13 11:30:12 PDT 2025] ===
-Logged in to FortiManager. Checking for active sessions for user ‘shahzadali’.
-Active session found for ‘shahzadali’ with session_id 1111. Killing session…
-Deleting user ‘shahzadali’…
-Check-in complete. Log saved to: fortimanager_checkin_shahzadali_20250513-113012.log
-
-
----
-
 ## 🚀 Usage
 
-### Run Check-In Script
+Usage is via Britive UI or Britive PyBritive CLI. Scripts should have proper exection permissions. 
 
-```bash
 chmod +x FortiManager_checkin.sh
-./FortiManager_checkin.sh
 
+Following must be chages as per your setup
 
-Customize (Optional)
-
-Edit the script to inject:
-	•	FortiManager host/IP
-	•	Admin login credentials
-	•	Target username (extracted and sanitized from Britive)
-
-
-
-fmg_host="18.144.170.42"
+fmg_host="IP"
 fmg_admin_user="FortiManager_Svc_Account"
 fmg_admin_password="********"
-jit_username="shahzadali"
+jit_username="will be coming from Britive automatically"
 
 
 Fortinet/
