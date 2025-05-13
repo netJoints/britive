@@ -54,7 +54,6 @@ jit_username="will be coming from Britive automatically"
 
 ## 📁 Directory Overview
 
----
 
 Fortinet/
 └── FortiManager/
