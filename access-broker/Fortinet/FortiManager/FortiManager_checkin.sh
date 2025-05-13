@@ -54,7 +54,7 @@ puts "Deleting user '$jit_username'..."
 send "config system admin user\r"
 expect "(user)#"
 send "delete $jit_username\r"
-expect "(admin)#"
+expect "(user)#"
 send "end\r"
 expect "FortiManager-shahzad # "
 
