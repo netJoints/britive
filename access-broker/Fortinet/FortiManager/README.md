@@ -52,6 +52,7 @@ fmg_admin_user="FortiManager_Svc_Account"
 fmg_admin_password="********"
 jit_username="will be coming from Britive automatically"
 
+## 📁 Directory Overview
 
 Fortinet/
 └── FortiManager/
@@ -59,6 +60,7 @@ Fortinet/
     ├── FortiManager_checkin.sh      # Check-in and cleanup logic
     └── README.md                    # This file
 
+---
 
 
 Pull requests are welcome! If you’re using Britive and Fortinet in your org, feel free to open issues or suggest improvements.
