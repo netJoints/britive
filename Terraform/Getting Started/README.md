@@ -13,12 +13,12 @@ To make this example work, you only need **two files**:
 1. `main.tf` - Contains the base Terraform configuration.
 2. `terraform.tfvars` - Stores your **Britive tenant name** and **API token**.
 
-## `terraform.tfvars` example
+## `terraform.tfvars` Example
 
 ```hcl
 tenant = "your-tenant-name"
 token  = "your-api-token"
-
+'''
 
 ## ⚠️ Do NOT upload your terraform.tfvars file to GitHub or share it publicly.
 This file contains sensitive credentials and should be securely stored in your local environment or a secrets management system.
