@@ -18,9 +18,11 @@ To make this example work, you only need **two files**:
 ```hcl
 tenant = "your-tenant-name"
 token  = "your-api-token"
-'''
 
-## ⚠️ Do NOT upload your terraform.tfvars file to GitHub or share it publicly.
+
+
+### ⚠️ Do NOT upload your `terraform.tfvars` file to GitHub or share it publicly.
+
 This file contains sensitive credentials and should be securely stored in your local environment or a secrets management system.
 
 ## 🧪 How to Use
