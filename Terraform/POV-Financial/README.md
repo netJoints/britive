@@ -17,8 +17,8 @@ To make this example work, you only need **two files**:
 
 ### `terraform.tfvars` Example
 
-tenant = "your-tenant-name"
-token  = "your-api-token"
+	tenant = "your-tenant-name"
+	token  = "your-api-token"
 
 
 #### ⚠️ Do NOT upload your `terraform.tfvars` file to GitHub or share it publicly.
