@@ -21,11 +21,11 @@ token  = "your-api-token"
 
 
 
-⚠️ Do NOT upload your terraform.tfvars file to GitHub or share it publicly.
+### ⚠️ Do NOT upload your terraform.tfvars file to GitHub or share it publicly.
 This file contains sensitive credentials and should be securely stored in your local environment or a secrets management system.
 
 
-🧪 How to Use
+### 🧪 How to Use
 	1.	Clone the repo or copy the Getting Started folder.
 	2.	Create a terraform.tfvars file with your Britive tenant and token.
 	3.	Initialize Terraform:
@@ -43,7 +43,7 @@ terraform plan
 terraform apply
 
 
-🧱 Build on Top of It
+### 🧱 Build on Top of It
 
 Once you’re connected and authenticated, you can start building additional Terraform resources to manage roles, permissions, JIT access, and more in your Britive environment. Use this as your foundation and expand your infrastructure as code.
 
